@@ -1,6 +1,6 @@
 .sidebar-wrap {
 	width: 250px;
-	min-height: 100vh;
+	height: 100%;
 	overflow: auto;
 	position: fixed;
 	top: 50px;

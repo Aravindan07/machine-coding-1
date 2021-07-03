@@ -8,7 +8,8 @@
 		"offer": "27%",
 		"image": "https://rukminim1.flixcart.com/image/452/542/kltryq80/shirt/n/4/j/40-lrsfcslfe00989-louis-philippe-jeans-original-imagyuygnfk3qyzb.jpeg?q=50",
 		"size": "M",
-		"for": "Men"
+		"for": "Men",
+		"isChecked": false
 	},
 	{
 		"id": "02",
@@ -19,7 +20,8 @@
 		"offer": "27%",
 		"image": "https://rukminim1.flixcart.com/image/452/542/kltryq80/shirt/n/4/j/40-lrsfcslfe00989-louis-philippe-jeans-original-imagyuygnfk3qyzb.jpeg?q=50",
 		"size": "L",
-		"for": "Women"
+		"for": "Women",
+		"isChecked": false
 	},
 	{
 		"id": "03",
@@ -30,50 +32,43 @@
 		"offer": "27%",
 		"image": "https://rukminim1.flixcart.com/image/452/542/kltryq80/shirt/n/4/j/40-lrsfcslfe00989-louis-philippe-jeans-original-imagyuygnfk3qyzb.jpeg?q=50",
 		"size": "XL",
-		"for": "Men"
+		"for": "Men",
+		"isChecked": false
 	},
 	{
 		"id": "04",
-		"brand": "Lux Venus Men",
+		"brand": "Us Polo",
 		"price": 399,
 		"ratings": "4.5",
 		"description": "This is a nice shirt",
 		"offer": "27%",
 		"image": "https://rukminim1.flixcart.com/image/452/542/kltryq80/shirt/n/4/j/40-lrsfcslfe00989-louis-philippe-jeans-original-imagyuygnfk3qyzb.jpeg?q=50",
 		"size": "S",
-		"for": "Women"
+		"for": "Women",
+		"isChecked": false
 	},
 	{
 		"id": "05",
-		"brand": "Jockey",
+		"brand": "Louis Phillipe",
 		"price": 299,
 		"ratings": "4.5",
 		"description": "This is a nice shirt",
 		"offer": "27%",
 		"image": "https://rukminim1.flixcart.com/image/452/542/kltryq80/shirt/n/4/j/40-lrsfcslfe00989-louis-philippe-jeans-original-imagyuygnfk3qyzb.jpeg?q=50",
 		"size": "M",
-		"for": "Men"
+		"for": "Men",
+		"isChecked": false
 	},
 	{
 		"id": "06",
-		"brand": "Swagr",
-		"price": 599,
-		"ratings": "4.5",
-		"description": "This is a nice shirt",
-		"offer": "27%",
-		"image": "https://rukminim1.flixcart.com/image/452/542/kltryq80/shirt/n/4/j/40-lrsfcslfe00989-louis-philippe-jeans-original-imagyuygnfk3qyzb.jpeg?q=50",
-		"size": "XL",
-		"for": "Women"
-	},
-	{
-		"id": "07",
-		"brand": "Navy Sport",
+		"brand": "Metronaut",
 		"price": 699,
 		"ratings": "4.5",
 		"description": "This is a nice shirt",
 		"offer": "27%",
 		"image": "https://rukminim1.flixcart.com/image/452/542/kltryq80/shirt/n/4/j/40-lrsfcslfe00989-louis-philippe-jeans-original-imagyuygnfk3qyzb.jpeg?q=50",
 		"size": "L",
-		"for": "Men"
+		"for": "Men",
+		"isChecked": false
 	}
 ]

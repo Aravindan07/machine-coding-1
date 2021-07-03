@@ -9,16 +9,31 @@ export function sortProducts(products, sortType) {
 	return products;
 }
 
-export const getFilteredData = (products, filter) => {
+export const getFilteredData = (products, filter, size, filterBy) => {
+	if (filter === "All") {
+		return products;
+	}
+	if (filterBy === "size" && size === "All") {
+		return products;
+	}
+	if (filterBy === "size") {
+		return products.filter((el) => el.size === size);
+	}
 	return filter
 		? products.filter((el) => (el.for === filter ? el.for === filter : el.brand === filter))
 		: products;
 };
 
-// export const getFilteredDatas = (products, filterTypes) => {
-//   products.filter(el => filterTypes.includes(el.for)
-// };
+export function filterBySize(products, size) {
+	return products.filter((el) => el.size === size);
+}
+
+export const getFilteredDataByBrand = (products, filterType, filterBy) => {
+	return filterType ? products.filter((el) => el.brand === filterType) : products;
+};
 
 export function getBrands(products) {
-	return products.map((el) => el.brand);
+	return products.filter(function (item, index, products) {
+		return products.indexOf(item) === index;
+	});
 }
