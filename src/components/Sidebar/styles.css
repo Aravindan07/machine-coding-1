@@ -1,0 +1,19 @@
+.sidebar-wrap {
+	width: 250px;
+	min-height: 100vh;
+	overflow: auto;
+	position: fixed;
+	top: 50px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar-inner-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.m-1rem {
+	margin: 1rem 0;
+}
